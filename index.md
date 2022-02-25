@@ -1,37 +1,125 @@
-## Welcome to GitHub Pages
+高毅
+CSDN：https://blog.csdn.net/qq_45510888
 
-You can use the [editor on GitHub](https://github.com/masteryi-0018/masteryi-0018.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### 教育经历
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##### 武汉大学
 
-### Markdown
+​	*2021.09 - 2023.06  武汉*
+​	电子信息 硕士 电子信息学院 | 高分辨率信息智能处理与应用研究组
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##### 武汉大学
 
-```markdown
-Syntax highlighted code block
+​	*2017.09 - 2021.06  武汉*
+​	通信工程 本科 电子信息学院 | 申请并获得创新学分；法学双学士学位
 
-# Header 1
-## Header 2
-### Header 3
+### 研究经历
 
-- Bulleted
-- List
+##### 高分遥感图像解译大赛
 
-1. Numbered
-2. List
+​	*2021.08 - 2021.10 武汉*
+​	针对海洋一号拍摄的海冰遥感图像语义分割问题，对数据集进行充分预处理和增强，使用结合了CBAM的deeplabv3plus，以及HRNet双模型进行软投票，最后加入后处理策略，在第五届高分大赛中获得了top 10%的成绩，项目地址：https://github.com/masteryi-0018/SLR
 
-**Bold** and _Italic_ and `Code` text
+##### 面向静态复杂背景的连续手语识别算法
 
-[Link](url) and ![Image](src)
-```
+​	*2021.04 - 2021.08 武汉*
+​	使用seq2seq模型，在大规模连续中国手语数据集CSL100上面进行了验证；结合复杂背景去除模块，提出了一种新颖的基于注意力机制与3D-CNN的连续手语识别算法；项目地址：https://github.com/masteryi-0018/SI
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+##### 基于生成对抗网络的图像质量评价算法
 
-### Jekyll Themes
+​	*2021.2020.12 - 2021.05 武汉*
+​	毕业设计，优秀本科毕业论文，以pix2pix为基础，利用Conditional GAN进行图像生成、以pytorch为框架进行图像修复即伪参考图像的生成；以SSIM map与未失真图像为目标进行训练，巧妙地将NR-IQA问题转化为FR-IQA问题
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/masteryi-0018/masteryi-0018.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 项目经历
 
-### Support or Contact
+##### AI预震与风控系统
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+​	*2021.07 - 至今 武汉*
+​	所属技术团队在第一届AETA地震预测AI算法大赛夺得冠军，后进行部分科研成果转化，担任研发部负责人，统筹网页小程序等平台开发，产出2篇软件著作权；项目获得第十六届“挑战杯”广东省一等奖、第七届中国“互联网+”广东省三等奖、第十一届“三创”广东省二等奖（其中校级一等奖）
+
+##### YONSEI University 国际课程项目
+
+​	*2021.07 - 2021.08 线上*
+​	在教授Andrew Beng Jin TEOH（张明仁）的指导下，针对人脸识别的任务，完成迁移学习与网络结构微调；更改原始Res-Net结构并针对特定任务调整预训练模型，通过修改学习率以及设置drop out等不断优化模型
+
+##### “牛备备”工程设备托管租赁平台
+
+​	*2020.03 - 2021.05 武汉*
+​	学生团队初创项目，注册公司，申报科技型中小企业，2020年度交易额超过100万元；作为团队8名合伙人之一，伴随团队发展到目前拥有30多人的较为成熟的运营体系；成功入驻武汉大学大学生工程训练与创新实践中心，进行创业孵化；产出2项实用新型专利，1篇软件著作权；项目获得第六届中国“互联网+”武汉大学校级三等奖
+
+##### “车易停”共享车位
+
+​	*2020.02 - 2020.08 武汉*
+​	团队前期调研珠海市拱北区车位数量、使用需求量、闲时车位使用率等，优化商业模式；设计研发小程序“AI车易停”，产出1项实用新型专利，1篇软件著作权；项目获得第十届全国大学生电子商务“创新、创意及创业”挑战赛广东省二等奖（其中校级特等奖）
+
+##### 基于机器学习的方言识别系统
+
+​	*2020.03 - 2020.05 武汉*
+​	自己制作方言数据集，提取MFCC、GTCC、SDC等特征，利用KNN、RF、LSTM、SVM、GMM等分类器进行交叉验证；用MATLAB开发图形化操作界面，对粤语、闽南语、长沙话、南昌话、河南话、普通话进行识别分类，综合正确率在85%以上
+
+##### 用于边境监控的无线传感网络激光通信技术
+
+​	*2019.03 - 2020.05 武汉*
+​	统筹推进项目开展，并顺利结题；采用ZigBee无线通信、STM32开发板以及多种无线传感模块构成无线传感网络，后加入激光通信模块，形成完整的激光通信网络；同时担任电子线路课程助教
+
+##### 武汉大学宇航与科学研究院暑期科研夏令营
+
+​	*2019.07 - 2019.08 武汉*
+​	基于开源项目OpenLayers，利用WebGIS将遥感图像呈现，可以进行数据显示以及相关操作，并且使用C++进行数据处理
+
+### 荣誉奖项
+
+- 第五届国际高分遥感图像解译大赛top 10% 2021年11月
+- 第七届中国“互联网+”大学生创新创业大赛广东省三等奖2021年8月
+- 第十一届全国大学生电子商务“创新、创意及创业”挑战赛广东省二等奖(其中校级一等奖) 2021年7月
+- 第十届全国大学生电子商务“创新、创意及创业”挑战赛广东省二等奖(其中校级特等奖) 2020年7月
+- 第十六届“挑战杯”全国大学生课外学术科技作品竞赛广东省一等奖2021年7月
+- 第六届中国“互联网+”大学生创新创业大赛校级三等奖2020年9月
+
+### 社团和组织经历
+
+##### 共青团武汉大学委员会
+
+​	副主任 基层团建指导中心
+​	*2021.07 - 至今 武汉*
+​	配合校团委组织办公室，面向全校各分团委、直属团总支开展基层团组织建设指导工作；工作内容涵盖未来学院、研支团、青
+马工程，具体负责青马工程项目组，包括五期、六期青马班以及研究生青马班的选拔流程、培养方案、外出实践等活动
+
+##### 武汉大学四期青马班
+
+​	学习委员 校团委青马工程
+​	*2019.06 - 2021.06 武汉*
+​	双学位培养模式，由武汉大学马克思主义学院与校团委共同培养；进行理论学习的同时，还参加丰富的社会实践，调研活动，
+以及志愿服务，以丰富的成果产出在湖北省活力团支部大赛中被评为铜牌团支部
+
+##### 武汉军运会志愿者
+
+​	小组负责人 主媒体中心
+​	*2019.10 - 2019.11 武汉*
+​	负责主服务台的各项工作，引导各国记者完成注册手续，志愿时长100小时以上，被评为武汉军运会优秀志愿者以及先进个人
+
+##### “新青年下乡”挂职锻炼
+
+​	社区挂职书记 江岸区球场街道球新社区
+​	*2019.06 - 2019.07 武汉*
+​	赴武汉市江岸区进行暑期实践社会调查专项研究，研究成果获得武汉大学暑期社会实践二等奖，同时被评为先进个人
+
+##### 电子信息学院团委
+
+​	常委 运营部
+​	*2017.09 - 2019.06 武汉*
+​	负责学院团委宣传工作，包括QQ服务号，微信公众号等，运营微信公众平台拥有3000+关注量，主笔的推送获得武汉大学创意推送大赛最佳创意奖；组织筹划表情包大赛、配音大赛，参与协调其他等大型活动；曾为电子信息学院“青年讲师团”成员
+
+##### 其他社会活动
+
+​	实践队员、志愿者
+​	*2018.01 - 2018.08 武汉*
+​	武汉大学文化调研协会“文化第一线”暑期调研，武汉大学寒假回访母校实践，武汉大学樱花节“护花使者”等
+
+### 技能/证书及其他
+
+- 技能： python，pytorch（中文翻译组成员），linux，git，docker，matlab，c/c++，mysql，html/css/js
+- 证书/执照： 计算机二级，普通话二级
+- 语言： 英语（CET-6），英语（CET-4），普通话（母语）
+- 兴趣爱好： 长跑（武汉大学校运会男团第四名），摄影（武汉大学摄影故事大赛二等奖），尤克里里
+- 活动： 个人公众号（运营）
