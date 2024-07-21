@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+# 求职意向
+
+工作技能：推理框架开发，C++，python，Git，Linux，Android，熟悉多种框架（PyTorch，TFLite，llama.cpp等）
+
+求职意向：大模型推理，推理框架开发，高性能计算
+
 # 教育经历
 
 - 武汉大学，硕士，2021.09 - 2023.06
@@ -23,6 +29,7 @@ redirect_from:
 
 # 科研成果
 
+- Applied Sciences（SCI）：[Residual Dense Swin Transformer for Continuous-Scale Super-Resolution Algorithm](https://masteryi-0018.github.io/publication/2024-05-12)（通信作者）
 - IGARSS（IEEE）：[Semi-supervised land-cover mapping based on multimodal fusion and pseudo-label](https://masteryi-0018.github.io/publication/2022-09-28)（第一作者，oral）
 - 武汉大学学报（CNKI）：[基于注意力机制的复杂背景连续手语识别](https://masteryi-0018.github.io/publication/2022-11-30)（学生第二作者）
 - ISBDAS（EI）：[Population and cultural disasters caused by sea level rise based on regression model](https://masteryi-0018.github.io/publication/2020-08-21)（共同第一作者）
@@ -54,7 +61,17 @@ redirect_from:
 
 基于自研芯片NPU子系统，对外提供stable diffusion模型的推理能力，为stable diffusion模型部署在NPU后端提供前期分析。通过分析竞品的模型转换，加速策略等，对stable diffusion模型计算量、参数量进行摸底与评估，为后续stable diffusion模型部署的立项和落地提供了前期支持。
 
-# 项目经历
+# 开源项目经历
+
+**开源推理框架MiniNN**
+
+一个从零开始的C++推理框架MiniNN。定义了框架的IR表示，包括graph，node，tensor，支持神经网络图构建；支持运行时op和kernel的注册；支持通过flatbuffers序列化与反序列化；支持使用googletest进行单元测试，支持cmake与bazel编译。项目地址：[https://github.com/masteryi-0018/MiniNN](https://github.com/masteryi-0018/MiniNN)
+
+**PyTorch中文文档**
+
+翻译Deploying PyTorch Models in Production部分。针对PyTorch模型的部署，翻译了：使用 Flask 部署一个 PyTorch 模型，TorchScript简介，在C++中加载 TorchScript 模型，使用 ONNX 运行一个PyTorch模型，树莓派 4 上的实时推理等内容。项目地址：[https://github.com/masteryi-0018/pytorch-doc-zh](https://github.com/masteryi-0018/pytorch-doc-zh)
+
+# 在校项目经历
 
 **IEEE GRSS全球数据融合大赛**
 
